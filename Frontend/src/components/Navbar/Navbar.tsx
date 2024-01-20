@@ -1,9 +1,11 @@
 import './Navbar.css'
 export default function Navbar() {
     return (
-        <nav>
+        <nav id='navbar'>
             <div className="logo-container">
-            
+                <div className="sun">
+                    
+                </div>
             </div>
             <div className="hamburger-menu">asdfjkb</div>
             <div className="nav-options">

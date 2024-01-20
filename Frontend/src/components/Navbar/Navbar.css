@@ -1,22 +1,31 @@
-nav {
-    height: 10vh;
-    position: relative;
+#navbar {
+    height: 80px;
     width: 100vw;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: fixed;
     display: flex;
     justify-content: space-between;
 }
 
 nav .logo-container  {
-    height: 10vh;
-    width: 10vh;
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80px;
     margin-left: 2vw;
+    
 }
-
+.sun {
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 0);
+    background: radial-gradient( yellow, orange);
+    display: none;
+}
 nav .nav-options {
-    height: 10vh;
+    height: 100%;
     width: 40%;
     display: flex;
     justify-content: space-around;
@@ -24,14 +33,15 @@ nav .nav-options {
 
 nav .nav-option {
     width: 12vh;
-    height: 10vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 nav .hamburger-menu {
-    height: 10vh;
+    height: 100%;
     width: 10vh;
     background-color: red;
     position: absolute;
@@ -40,6 +50,11 @@ nav .hamburger-menu {
     display: none;
 }
 
-@media only screen (max-width: 500px) {
-    
+@media (max-width: 850px) {
+    .hamburger-menu {
+        display: block;        
+    }
+    .nav-options {
+        display: none;
+    }
 }

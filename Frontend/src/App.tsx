@@ -1,4 +1,4 @@
-import { Navbar } from "./components"
+import { Navbar, Footer } from "./components"
 import {Home, Error} from './pages'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/*" element={<Error/>}/>
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
     </>
   )
