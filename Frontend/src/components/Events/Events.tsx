@@ -1,4 +1,5 @@
 import { EventCard } from '../../components'
+import Timeline from '../timeline/Timeline'
 import { event1, event2, event3 } from './event-data'
 import './Events.css'
 export default function Events() {
@@ -17,6 +18,7 @@ export default function Events() {
                 </div>
             </div>
             <button className='event-btn'>View All Events</button>
+            <Timeline/>
         </div>
     )
 }

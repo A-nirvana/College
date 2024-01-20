@@ -1,0 +1,13 @@
+
+.event-container{
+    display: flex;
+    color: aqua;
+    font-size: 2em;
+    font-weight: 300;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.event{
+    display: block;
+}

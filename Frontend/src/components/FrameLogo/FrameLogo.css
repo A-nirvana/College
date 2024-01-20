@@ -1,0 +1,56 @@
+.frameLogo {
+    height: 90%;
+    width: 70%;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 6%;
+    transform-origin: 50% 2%;
+    animation: swing 3s ease-in-out 0s infinite alternate forwards;
+    text-align: center;
+    /* padding: 0 10%; */
+    background-color: rgba(0,0,0,0.8);
+    /* filter: blur(6px); */
+}
+
+.frameLogo .logo-container {
+    height: 20vh;
+    width: 20vh;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.frameLogo:hover {
+    animation: none;
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+
+.frameLogo .logo-container img {
+    height: 20vh;
+    width: 20vh;
+}
+.frameLogo h1 {
+    text-align: center;
+    color: white;
+    font-size: 3vh;
+}
+.pin {
+    height: 1.5vh;
+    width: 1.5vh;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid black;
+    box-shadow: 1% 1% 1% 1% black;
+
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(-8deg);
+    }
+    100% {
+        transform: rotate(8deg);
+    }
+}
