@@ -1,5 +1,18 @@
 #about {
     height: 100vh;
     width: 100vw;
-    text-align: center;
+    background: url("../../../public/about-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about .about-head {
+    position: relative;
+    top: 10%;
+    left: 5%;
+}
+
+#about .about-head h1 {
+    font-size: 80px;
+    color: white;
 }

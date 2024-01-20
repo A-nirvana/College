@@ -40,6 +40,11 @@ nav .nav-option {
     cursor: pointer;
 }
 
+nav .nav-option a {
+    text-decoration: none;
+    color: black;
+}
+
 nav .hamburger-menu {
     height: 100%;
     width: 10vh;

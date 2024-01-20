@@ -10,16 +10,26 @@ export default function Navbar() {
             <div className="hamburger-menu">asdfjkb</div>
             <div className="nav-options">
                 <div className="nav-option">
-                    <h1>Home</h1>
+                    <a href="/#awesome">
+                        <h1>Home</h1>
+                    </a>
                 </div>
                 <div className="nav-option">
-                    <h1>About</h1>
+                    <a href="/#about">
+                        <h1>About</h1>
+
+                    </a>
                 </div>
                 <div className="nav-option">
-                    <h1>Events</h1>
+                    <a href="/#events">
+                        <h1>Events</h1>
+
+                    </a>
                 </div>
                 <div className="nav-option">
-                    <h1>Contact</h1>
+                    <a href="/#contact">
+                        <h1>Contact</h1>
+                    </a>
                 </div>
             </div>
         </nav>
