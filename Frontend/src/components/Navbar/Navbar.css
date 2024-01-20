@@ -1,0 +1,45 @@
+nav {
+    height: 10vh;
+    position: relative;
+    width: 100vw;
+    border: 1px solid black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo-container  {
+    height: 10vh;
+    width: 10vh;
+    background-color: red;
+    margin-left: 2vw;
+}
+
+nav .nav-options {
+    height: 10vh;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .nav-option {
+    width: 12vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .hamburger-menu {
+    height: 10vh;
+    width: 10vh;
+    background-color: red;
+    position: absolute;
+    left: 95vw;
+    margin-right: 2vw;
+    display: none;
+}
+
+@media only screen (max-width: 500px) {
+    
+}
