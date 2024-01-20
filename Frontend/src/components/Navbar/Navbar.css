@@ -5,6 +5,7 @@
     position: fixed;
     display: flex;
     justify-content: space-between;
+    z-index: 100;
 }
 
 nav .logo-container  {
@@ -13,17 +14,17 @@ nav .logo-container  {
     align-items: center;
     height: 100%;
     width: 80px;
-    margin-left: 2vw;
+    /* margin-left: 2vw; */
     
 }
-.sun {
+/* .sun {
     height: 90%;
     width: 90%;
     border-radius: 50%;
     background-color: rgb(255, 255, 0);
     background: radial-gradient( yellow, orange);
     display: none;
-}
+} */
 nav .nav-options {
     height: 100%;
     width: 40%;
@@ -45,7 +46,7 @@ nav .nav-option a {
     color: black;
 }
 
-nav .hamburger-menu {
+/* nav .hamburger-menu {
     height: 100%;
     width: 10vh;
     background-color: red;
@@ -62,4 +63,4 @@ nav .hamburger-menu {
     .nav-options {
         display: none;
     }
-}
+} */

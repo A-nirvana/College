@@ -7,7 +7,7 @@ export default function Navbar() {
                     
                 </div>
             </div>
-            <div className="hamburger-menu">asdfjkb</div>
+            {/* <div className="hamburger-menu"></div> */}
             <div className="nav-options">
                 <div className="nav-option">
                     <a href="/#awesome">

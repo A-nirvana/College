@@ -1,18 +1,32 @@
 #about {
     height: 100vh;
     width: 100vw;
-    background: url("../../../public/about-bg.jpg");
+    background: url("../../../public/about-bg2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #about .about-head {
     position: relative;
-    top: 10%;
+    top: 5%;
     left: 5%;
 }
 
 #about .about-head h1 {
     font-size: 80px;
     color: white;
+}
+
+.about-text-container {
+    height: 70%;
+    width: 50%;
+    position: relative;
+    top: 10%;
+    left: 5%;
+}
+
+.about-text-container p {
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
 }
